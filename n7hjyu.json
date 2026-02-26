@@ -1,0 +1,43 @@
+{
+  "webapp": "https://script.google.com/macros/s/AKfycbznCIwrCXxlTfUlwXlvnytjkBvAPDtUMYW8sHGYnZh6fUSGOH00wroic570fHMwJEBi/exec",
+  "posts": [
+    {
+      "id": 101,
+      "title": "Basic Video Iframe",
+      "image": "pages/templates/img-temp/basic-iframe.png",
+      "file": "pages/templates/basic-iframe.html"
+    },
+    {
+      "id": 102,
+      "title": "Custom Video Player",
+      "image": "pages/templates/img-temp/custom-iframe.png",
+      "file": "pages/templates/custom-iframe.html"
+    },
+    {
+      "id": 103,
+      "title": "Minimal Custom Html5 Video Player",
+      "image": "pages/templates/img-temp/custom-player.png",
+      "file": "pages/templates/minimal-custom-html5.html"
+    },
+    {
+      "id": 104,
+      "title": "Hls (.m3u8,.mp4) video player",
+      "image": "pages/templates/img-temp/hls-m3u8-player.png",
+      "file": "pages/templates/hls-m3u8-player.html"
+    }
+    ,{
+      "id": 105,
+      "title": "Custom MP4 video player",
+      "image": "pages/templates/img-temp/custom-mp4-plyr.jpg",
+      "file": "pages/templates/custom-mp4-plyr.html"
+    }
+    ,{
+      "id": 106,
+      "title": "Custom Youtube Iframe",
+      "image": "assets/img/X.png",
+      "file": "assets/to.html"
+    }
+    
+    
+  ]
+}
