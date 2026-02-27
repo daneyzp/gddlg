@@ -37,7 +37,12 @@
       "image": "https://daneyzp.github.io/gddlg/templates/img-temp/custom-youtube-iframe.png",
       "file": "https://daneyzp.github.io/gddlg/templates/custom-youtube-iframe.html"
     }
-    
+    ,{
+      "id": 107,
+      "title": "Advanced Youtube Iframe (Normal + Shorts + Live)",
+      "image": "https://daneyzp.github.io/gddlg/templates/img-temp/advanced-youtube-iframe.jpg",
+      "file": "https://daneyzp.github.io/gddlg/templates/advanced-youtube-iframe.html"
+    }
     
   ]
 }
