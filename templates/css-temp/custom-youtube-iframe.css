@@ -1,0 +1,67 @@
+.yt-premium-embed{
+  position:relative;
+  width:100%;
+  max-width:900px;
+  aspect-ratio:16/9;
+  border-radius:20px;
+  overflow:hidden;
+  background:#000;
+  box-shadow:0 12px 40px rgba(0,0,0,0.5);
+  cursor:pointer;
+  transition:.3s ease;
+  margin:20px auto;
+  font-family:'Poppins',sans-serif;
+}
+
+.yt-premium-embed:hover{
+  transform:scale(1.01);
+}
+
+.yt-premium-thumb{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:.4s ease;
+}
+
+.yt-premium-embed:hover .yt-premium-thumb{
+  filter:brightness(.7);
+}
+
+.yt-premium-play{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:clamp(60px,10vw,90px);
+  height:clamp(60px,10vw,90px);
+  background:#ff0000;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 10px 35px rgba(255,0,0,0.5);
+  transition:.3s ease;
+}
+
+.yt-premium-play::before{
+  content:"";
+  border-style:solid;
+  border-width:clamp(14px,2.5vw,20px) 0 clamp(14px,2.5vw,20px) clamp(22px,3.5vw,30px);
+  border-color:transparent transparent transparent white;
+  margin-left:5px;
+}
+
+.yt-premium-embed iframe{
+  width:100%;
+  height:100%;
+  border:0;
+  animation:ytFade .4s ease;
+}
+
+@keyframes ytFade{
+  from{opacity:0}
+  to{opacity:1}
+}
